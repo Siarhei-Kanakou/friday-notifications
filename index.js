@@ -1,5 +1,5 @@
 import { NativeModules } from 'react-native';
 
-const { FridayNotifications } = NativeModules;
+const { Notifications } = NativeModules;
 
-export default FridayNotifications;
+export default Notifications;

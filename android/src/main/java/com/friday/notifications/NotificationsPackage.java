@@ -10,10 +10,10 @@ import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.uimanager.ViewManager;
 import com.facebook.react.ReactPackage;
 
-public class FridayNotificationsPackage implements ReactPackage {
+public class NotificationsPackage implements ReactPackage {
   @Override
   public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
-    return Arrays.<NativeModule>asList(new FridayNotificationsModule(reactContext));
+    return Arrays.<NativeModule>asList(new NotificationsModule(reactContext));
   }
 
   @Override
