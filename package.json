@@ -1,0 +1,21 @@
+{
+  "name": "friday-notifications",
+  "version": "0.1.0",
+  "description": "React Native Notifications for Friday Shop",
+  "author": "Siarhei Kanakou",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Siarhei-Kanakou/friday-notifications.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "react-native": "^0.58.4",
+  },
+  "keywords": [
+    "react-native"
+  ],
+}
