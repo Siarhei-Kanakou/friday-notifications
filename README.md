@@ -17,8 +17,8 @@ Not supported
 #### Android
 
 1. Open up `android/app/src/main/java/[...]/MainActivity.java`
-  - Add `import com.reactlibrary.RNFridayNotificationsPackage;` to the imports at the top of the file
-  - Add `new RNFridayNotificationsPackage()` to the list returned by the `getPackages()` method
+  - Add `import com.friday.notifications.NotificationsPackage;` to the imports at the top of the file
+  - Add `new NotificationsPackage()` to the list returned by the `getPackages()` method
 2. Append the following lines to `android/settings.gradle`:
     ```
     include ':friday-notifications'
