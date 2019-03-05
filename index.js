@@ -1,6 +1,5 @@
-
 import { NativeModules } from 'react-native';
 
-const { RNFridayNotifications } = NativeModules;
+const { FridayNotifications } = NativeModules;
 
-export default RNFridayNotifications;
+export default FridayNotifications;

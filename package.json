@@ -13,9 +13,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "peerDependencies": {
-    "react-native": "^0.58.4",
+    "react-native": "0.58.4"
   },
   "keywords": [
     "react-native"
-  ],
+  ]
 }
