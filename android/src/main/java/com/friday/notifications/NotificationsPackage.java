@@ -13,7 +13,9 @@ import com.facebook.react.ReactPackage;
 public class NotificationsPackage implements ReactPackage {
   @Override
   public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
-    return Arrays.<NativeModule>asList(new NotificationsModule(reactContext));
+    return Arrays.<NativeModule>asList(
+      new NotificationsModule(reactContext)
+    );
   }
 
   @Override

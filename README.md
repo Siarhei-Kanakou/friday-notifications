@@ -35,7 +35,7 @@ Not supported
 
 ## Usage
 ```javascript
-import FridayNotifications from 'friday-notifications';
+import Notifications from 'friday-notifications';
 
 // TODO: What to do with the module?
 RNFridayNotifications;

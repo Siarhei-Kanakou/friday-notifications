@@ -18,4 +18,19 @@ public class NotificationsModule extends ReactContextBaseJavaModule {
   public String getName() {
     return "Notifications";
   }
+
+  @ReactMethod
+  public void show() {
+
+  }
+
+  @ReactMethod
+  public void update() {
+
+  }
+
+  @ReactMethod
+  public void cancel() {
+
+  }
 }
